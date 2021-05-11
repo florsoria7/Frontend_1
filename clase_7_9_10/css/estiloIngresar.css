@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: roboto;
+  font-weight: lighter;
+  display:block;
+}
+
+.botonEntrar {
+  text-align: center;
+  padding-right: 10%;
+  border: none;
+ 
+}
+
+.contenedor {
+  position: relative;
+  margin-top: 2%;
+}
+
+form input {
+  margin-top: 4%;
+  margin-bottom: 3%;
+  margin-left: 15%;
+  width: 50%;
+  outline: none;
+}
+
+form input[type="submit"] {
+  color: black;
+  background-color: #1cd1b0;
+  padding: 1%;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 44px;
+  border: none;
+  border-radius:23.011px;
+}
+
+footer {
+  background-color: #00669f;
+  color: white;
+  font-family: roboto;
+  font-weight: lighter;
+  padding: 0.2%;
+  text-align: center;
+}
+
+.h2ConImagen {
+  background-color: #00669f;
+  background-image: url(/frontEnd/Modulo3/clase10.1/img/OBJECTS.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 2%;
+  color: white;
+  text-indent: 100px;
+  font-family: roboto;
+  font-weight: lighter;
+  font-size: 30px;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.oferta_descuento {
+  background-color: #1cd1b0;
+  font-family: roboto;
+  margin-bottom: 0%;
+  padding: 0%;
+  padding-left: 3%;
+}
+
+span {
+  color: #1cd1b0;
+}
+
+.titulo_formulario {
+  color: #333333;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  padding-left: 15%;
+}

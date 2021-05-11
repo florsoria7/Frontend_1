@@ -1,0 +1,107 @@
+*{
+    margin:0%;
+    padding:0%
+}
+
+img{
+    margin-left: 1%;    /*Margen izquierdo - img logo front*/
+}
+
+ul{
+    list-style: none;   /*anula los items de ul y ol de listas*/
+      
+}
+ul li{
+    margin-left: 1%;    /*margen izquierdo lista superior front*/
+}
+
+header h1{
+    padding: 20px 4px; 
+    color:white;
+    font-size: 50px; /*tamaño de letra titulo principal*/
+}
+
+header p{
+font-size: 22px; /*tamaño de letra del parrafo del header*/
+color:white;
+padding:15px 4px;
+margin-bottom: 0.1%; /*margen de separacion hacia abajo*/
+}
+
+.titulo{
+    position:absolute; /*position dentro del titulo independiente del resto pag*/
+    bottom:0; 
+}
+
+body {
+    font-family: Roboto,sans-serif; /*tipo de fuente (letra)*/
+    font-size: 16px; /*tamaño de letra*/
+    line-height: 25px; 
+    margin-top: 0.5%;
+}
+
+a{
+    text-decoration: none;/*quita el subrayado a los links*/
+    color: black
+}
+
+.lemon-image{ 
+    margin-left: 1%;
+    margin-right: 2%;
+    margin-top: 3%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment:scroll;
+    width:auto ;
+    height: 450px;
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url(./lemon-pie.png);
+}
+
+
+h2{
+    color:black;
+    width:auto;
+    height: -200px;
+    margin-left: 1%;
+    margin-right: 50px;
+    font-weight:100;
+ }
+
+ section{
+     margin-top: 60px;
+     margin-left: 0px;
+ }
+ section p{
+     margin-top: 2%;
+ }
+ h3{
+     margin-bottom: 2%;
+ }
+ li{ 
+     margin-left: 2%;
+ }
+
+ dt{
+     font-style: italic;
+     margin-top: 25px;
+     margin-left: 15px;
+ }
+
+ dd{
+    margin-left: 4%;
+ }
+ 
+ span{
+    color: orange;
+    text-decoration: underline;
+    font-weight: normal;
+ }
+
+footer {
+    background-color: rgb(211, 211, 211); 
+    height:50px; 
+    text-align: center; 
+    line-height: 50px;
+ }
